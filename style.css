@@ -653,6 +653,10 @@
   font-weight: 400;
   line-height: 26px; /* 162.5% */
   letter-spacing: -0.29px;
+  transition: 0.3s;
+}
+.footer__block-row1-right-top-links:hover {
+  transform: translateY(-4px);
 }
 .footer__block-row1-right-bottom {
   width: 470px;
