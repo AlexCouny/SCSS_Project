@@ -44,7 +44,7 @@
     align-content: center;
 
     &__block-left{
-    width: 635px;
+    max-width: 635px;
     height: 549px;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@ animation: descr 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
     }
 
     &__block-left-buttons{
-        width: 470px;
+        max-width: 470px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -129,9 +129,8 @@ letter-spacing: -0.29px;
     }
 
     &__block-right-img {
-    width: 460px;
+    max-width: 460px;
     height: 548.807px;
-    transform: translateX(1200px);
 animation: img 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
     }
 
@@ -175,7 +174,7 @@ animation: img 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
 }
 /* -------------------HEADER--------------- */
 .header {
-    width: 1300px;
+    max-width: 1300px;
 height: 50px;
 margin: 0 auto;
 display: flex;
@@ -188,7 +187,7 @@ align-items: center;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 500px;
+    max-width: 500px;
 }
 &__left-nav {
     width: 300px;
@@ -248,7 +247,7 @@ transition: 0.2s;
     align-items: center;
 
     &__block-left{
-    width: 540px;
+    max-width: 540px;
     height: 378px;
     display: flex;
     flex-direction: column;
@@ -269,7 +268,7 @@ letter-spacing: -0.76px;
 &__block-left-txt-descr{
     padding-top: 8px;
     color: var(--base-text-on-dark, #FFF);
-    width: 540px;
+    max-width: 540px;
 font-family: Inter;
 font-size: 20px;
 font-style: normal;
@@ -279,7 +278,7 @@ letter-spacing: -0.36px;
 }
 &__block-left-statistics {
     padding-top: 36px;
-    width: 488px;
+    max-width: 488px;
 height: 162px;
 display: flex;
 flex-direction: row;
@@ -314,7 +313,7 @@ letter-spacing: -0.289px;
     position: relative;
 }
 &__block-right-img{
-    width: 530px;
+    max-width: 530px;
 height: 350px;
 }
 
@@ -341,7 +340,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 62px; /* 119.231% */
 letter-spacing: -0.94px;
-width: 540px;
+max-width: 540px;
 padding-bottom: 68px;
 margin-left: 108px;
     }
@@ -350,7 +349,7 @@ margin-left: 108px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 1000px;
+        max-width: 1000px;
         margin-left: 108px;
     }
 
@@ -399,7 +398,7 @@ letter-spacing: -0.289px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 1000px;
+        max-width: 1000px;
         margin-left: 108px;
     }
 }
@@ -421,7 +420,7 @@ letter-spacing: -0.289px;
 
     &__block{
         margin: 0 auto;
-        width: 1110px;
+        max-width: 1110px;
     height: 600px;
     border-radius: 3px;
     background: var(--base-bg-secondary, #E7EBFC);
@@ -442,7 +441,7 @@ letter-spacing: -0.289px;
     }
 
     &__block-left-title{
-        width: 572px;
+        max-width: 572px;
         color: var(--base-text-primary, #191919);
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Inter;
@@ -454,7 +453,7 @@ letter-spacing: -0.76px;
     }
 
     &__block-left-descr{
-        width: 588px;
+        max-width: 588px;
         color: var(--base-text-secondary, #1E1E1E);
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Inter;
@@ -505,7 +504,7 @@ letter-spacing: -0.29px;
     align-items: start;
 
     &__title{
-        width: 730px;
+        max-width: 730px;
         color: var(--base-text-on-dark, #FFF);
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Inter;
@@ -518,7 +517,7 @@ margin-left: 108px;
     }
 
     &__blocks{
-        width: 1100px;
+        max-width: 1100px;
         display: flex;
         justify-content: space-between;
         flex-direction: row;
@@ -562,7 +561,7 @@ letter-spacing: -0.29px;
     align-content: center;
 
     &__title{
-        width: 920px;
+        max-width: 920px;
         color: var(--base-text-on-dark, #FFF);
 text-align: center;
 font-feature-settings: 'clig' off, 'liga' off;
@@ -575,7 +574,7 @@ letter-spacing: -0.94px;
     }
 
     &__descr{
-        width: 825px;
+        max-width: 825px;
         color: var(--base-text-on-dark, #FFF);
 text-align: center;
 font-family: Inter;
@@ -609,7 +608,7 @@ transition: 0.2s;
     }
 
     &__line{
-        width: 1110px;
+        max-width: 1110px;
 height: 2px;
 background: var(--base-boarder, #B4B4B4);
     }
@@ -632,7 +631,7 @@ background: var(--base-boarder, #B4B4B4);
 /* -------------ROW---1----------------------- */
 
     &__block-row1{
-        width: 1370px;
+        max-width: 1370px;
         margin: 0 auto;
         display: flex;
         flex-direction: row;
@@ -668,7 +667,7 @@ letter-spacing: -0.32px;
     }
 
     &__block-row1-left-descr{
-        width: 423px;
+        max-width: 423px;
         color: var(--base-text-on-dark, #FFF);
 font-family: Inter;
 font-size: 16px;
@@ -700,7 +699,7 @@ letter-spacing: -0.29px;
         flex-direction: row;
         justify-content: space-between;
         align-items: end;
-        width: 530px;
+        max-width: 530px;
     }
 
     &__block-row1-right-top-links{
@@ -719,7 +718,7 @@ letter-spacing: -0.29px;
     }
 
     &__block-row1-right-bottom{
-        width: 470px;
+        max-width: 470px;
         margin-top: 25px;
         display: flex;
         flex-direction: row;
@@ -744,7 +743,7 @@ letter-spacing: -0.29px;
 
     &__line{
         margin: 0 auto;
-        width: 1170px;
+        max-width: 1170px;
         height: 1.4px;
         opacity: 0.08;
         background: var(--base-text-on-dark, #FFF);
@@ -753,7 +752,7 @@ letter-spacing: -0.29px;
     /* ------------------ROW-----2---------- */
 
     &__block-row2{
-        width: 1370px;
+        max-width: 1370px;
         margin: 0 auto;
         display: flex;
         flex-direction: row;
@@ -783,3 +782,206 @@ line-height: 22px; /* 157.143% */
 letter-spacing: -0.25px;
     }
 }
+
+/* Стилі для дуже великих екранів (дисплей 1200рх і більше).
+Записуються без медіа-запитів, тому що контрольна точка не має верхньої межі. */
+
+/* Стилі для великих екранів (дисплей максимум 1199рх) */
+@media (max-width: 1199px) {
+    .container{
+        padding: 0 20px;
+    }
+
+    .container2{
+        padding: 0 20px;
+    }
+}
+/* ------------------------------------------------------------- */
+@media (max-width:1160px){
+    .container__block-right-img{
+        display: none;
+    }
+
+    .container__block-left{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container2__block-right-img{
+        width: 350px;
+    }
+
+    .container3__title{
+        margin-left: 20px;
+    }
+
+    .container3__blocks-row1{
+        margin-left: 20px;
+    }
+
+    .container3__blocks-row2{
+        margin-left: 20px;
+    }
+
+    .container4__block{
+        width: 900px;
+        margin-left: 30px ;
+    }
+
+    .container4__block-right-img{
+        display: none;
+    }
+
+    .container5__title{
+        margin-left: 30px;
+    }
+
+    .container5__blocks{
+        margin-left: 30px;
+    }
+    .container5__item-descr{
+        width: 180px;
+    }
+
+    .container6{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .container6__descr{
+        margin-left: 40px;
+    }
+    .container6__btn{
+        margin-left: 350px;
+    }
+    .container6__logos{
+        margin-left: 80px;
+        width: 700px;
+    }
+    .container6__line{
+        display: none;
+    }
+
+    .footer__block-row1{
+        margin-left: 40px;
+    }
+    .footer__block-row1-right-bottom-links{
+        padding: 0 5px;
+    }
+    .footer__block-row1-right-top-links{
+        padding: 0 5px;
+    }
+    .footer__block-row2{
+        margin-left: 40px;
+    }
+    .footer__block-row2-txt-right{
+        padding-left: 20px;
+    }
+}
+
+
+/* Стилі для середніх екранів (дисплей максимум 991рх) */
+    @media (max-width: 991px) {
+        .header__left-nav{
+            padding-left: 20px;
+        }
+
+        .container2__block-right{
+            padding-right: 20px;
+        }
+
+        .container3__blocks-row1{
+            width: 735px;
+        }
+        .container3__blocks-row2{
+            width: 735px;
+        }
+
+        .container4__block{
+            width: 700px;
+        }
+        
+        .container5__blocks-item{
+            width: 200px;
+        }
+
+        .container6__title{
+            max-width: 700px;
+    font-size: 40px;
+        }
+        .container6__descr{
+            max-width: 550px;
+            margin-left: 80px;
+        }
+        .container6__btn{
+            margin-left: 260px;
+        }
+        .container6__logos{
+            margin-left: 20px;
+        }
+
+        .footer__block-row1{
+            margin-left: 10px;
+        }
+        .footer__block-row2{
+            margin-left: 10px;
+        }
+        .footer__block-row1-left{
+            width: 300px;
+        }
+}
+
+/* Стилі для малих екранів (дисплей максимум 767рх) */
+    @media (max-width: 767px) {
+        .container2__block-left{
+            margin-left: -140px;
+        }
+        .container2__block-right{
+            display: none;
+        }
+
+        .container3__blocks-row1-item-descr{
+            width: 200px;
+        }
+
+        .container5__item-descr{
+            width: 120px;
+        }
+        .container5__title{
+            width: 620px;
+            font-size: 38px;
+        }
+
+        .container6__logos{
+            display: none;
+        }
+
+        .footer__block-row1-right{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 270px;
+        }
+        .footer__block-row1-right-bottom{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between ;
+            align-items: center;
+            padding: 7px 10px;
+        }
+        .footer__block-row1-right-top{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 6px 6px;
+        }
+        .footer__block-row1-right-top-links:nth-child(5){
+            display: none;
+        }
+}
+
+/* Стилі для дуже малих екранів (дисплей максимум 575рх) */
+    @media (max-width: 575px) { }
