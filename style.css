@@ -1153,7 +1153,7 @@
     display: none;
   }
 }
-@media (max-width: 333px) {
+@media (max-width: 383px) {
   .header__left {
     width: 310px;
   }
@@ -1179,14 +1179,15 @@
   }
   .container4__block {
     transform: translateY(250px);
-    width: 300px;
+    width: 340px;
   }
   .container4__block-left-title {
     font-size: 30px;
     width: 260;
   }
   .container4__block-left-descr {
-    font-size: 23px;
+    font-size: 28px;
+    font-weight: 300;
     width: 250px;
   }
   .container5__title {
