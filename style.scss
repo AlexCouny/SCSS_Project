@@ -1388,7 +1388,6 @@ padding-left: 200px;
         padding-top: 60px;
     }
     .container__block-left-buttons{
-        border: 1px solid #000;
         width: 300px;
     }
     .container__block-left-buttons-txt{
@@ -1399,8 +1398,12 @@ padding-left: 200px;
         width: 140px;
     }
 
+    .container3__title{
+        text-align: center;
+    }
     .container3__blocks{
         width: 340px;
+        margin: 0 auto;
     }
     .container3__blocks-row2{
         transform: translateX(-30px);
