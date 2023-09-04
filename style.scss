@@ -965,7 +965,8 @@ padding-left: 200px;
             font-size: 38px;
         }
         .container5__blocks{
-            width: 600px;
+            border: 1px solid #000;
+            width: 700px;
             margin: 0 auto;
         }
         .container5__blocks-item{
@@ -1004,11 +1005,17 @@ padding-left: 200px;
         }
 }
 
+
 /* Стилі для малих екранів (дисплей максимум 767рх) */
     @media (max-width: 767px) {
         .header__right-btn{
             display: none;
         }
+
+        .container__block-left-buttons-txt{
+            display: none;
+        }
+
 
         .container2__block-left{
             margin-left: 0px;
@@ -1057,6 +1064,7 @@ padding-left: 200px;
             display: flex;
             flex-direction: row;
             align-items: start;
+            width: 600px;
         }
         .container5__item-descr{
             width: 120px;
@@ -1193,6 +1201,9 @@ padding-left: 200px;
 }
 /* Стилі для дуже малих екранів (дисплей максимум 575рх) */
     @media (max-width: 575px) { 
+        .container__block-left-title{
+            margin: 0 auto;
+        }
 
         .header__left-nav{
             display: none;
