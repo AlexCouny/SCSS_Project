@@ -1267,7 +1267,7 @@ padding-left: 200px;
 
 @media (max-width:383px){
     .header__left{
-        width: 310px;
+        width: 340px;
     }
 
     .container{
@@ -1296,6 +1296,7 @@ padding-left: 200px;
     .container4__block{
         transform: translateY(250px);
         width: 340px;
+        border: 1px solid #000;
     }
     .container4__block-left-title{
         font-size: 30px;
@@ -1311,6 +1312,10 @@ padding-left: 200px;
         width: 280px;
         font-size: 26px;
     }
+    .container5__blocks{
+        border: 1px solid #000;
+        width: 200px;
+    }
 
     .container6{
         height: 650px;
@@ -1323,5 +1328,6 @@ padding-left: 200px;
         width: 300px;
         font-size: 17px;
     }
+
 
 }
