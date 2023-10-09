@@ -194,7 +194,8 @@ align-items: center;
     max-width: 500px;
 }
 &__left-nav {
-    width: 300px;
+    padding-left: 30px;
+    width: 330px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -707,11 +708,11 @@ letter-spacing: -0.29px;
     }
 
     &__block-row1-right-top-links{
-        color: var(--base-text-on-dark, #FFF);
+        color: var(--base-text-on-dark, #000);
         font-family: Inter;
         font-size: 16px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 600;
         line-height: 26px; /* 162.5% */
         letter-spacing: -0.29px;
         transition: 0.3s;
@@ -731,11 +732,11 @@ letter-spacing: -0.29px;
 }
 
     &__block-row1-right-bottom-links{
-        color: var(--base-text-on-dark, #FFF);
+        color: var(--base-text-on-dark, #000);
         font-family: Inter;
         font-size: 16px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 600;
         line-height: 26px; /* 162.5% */
         letter-spacing: -0.29px;
         cursor: pointer;
@@ -842,16 +843,16 @@ padding-left: 200px;
 
     .container3__blocks-row1{
         margin: 0 auto;
-        width: 900px;
+        max-width: 900px;
     }
 
     .container3__blocks-row2{
         margin: 0 auto;
-        width: 900px;
+        max-width: 900px;
     }
 
     .container4__block{
-        width: 900px;
+        max-width: 900px;
         margin: 0 auto;
     }
 
@@ -947,10 +948,10 @@ padding-left: 200px;
         }
 
         .container3__blocks-row1{
-            width: 670px;
+            max-width: 670px;
         }
         .container3__blocks-row2{
-            width: 670px;
+            max-width: 670px;
         }
         .container3__blocks-row1-item-descr{
             width: 200px;
@@ -965,7 +966,6 @@ padding-left: 200px;
             font-size: 38px;
         }
         .container5__blocks{
-            border: 1px solid #000;
             width: 700px;
             margin: 0 auto;
         }
@@ -985,13 +985,13 @@ padding-left: 200px;
         }
         .container6__descr{
             max-width: 550px;
-            margin-left: 80px;
+            margin: 0 auto;
         }
         .container6__btn{
-            margin-left: 260px;
+            margin: 0 auto;
         }
         .container6__logos{
-            margin-left: 20px;
+            margin: 0 auto;
         }
 
         .footer__block-row1{
@@ -1019,18 +1019,20 @@ padding-left: 200px;
 
         .container2__block-left{
             margin-left: 0px;
+            margin-bottom: 120px;
         }
         .container2__block-right{
             display: none;
         }
 
         .container3__blocks{
-            width: 600px;
+            max-width: 600px;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
             transform: translateY(-70px);
+            margin: 0 auto;
         }
         .container3__blocks-row1{
             display: flex;
@@ -1070,14 +1072,15 @@ padding-left: 200px;
             width: 120px;
         }
 
+        
         .container6__title{
             width: 550px;
         }
         .container6__descr{
-            margin-left: 0px;
+            margin: 0 auto;
         }
         .container6__btn{
-            margin-left: 190px;
+            margin: 0 auto;
         }
         .container6__logos{
             display: none;
@@ -1240,13 +1243,17 @@ padding-left: 200px;
             width: 190px;
         }
 
+        .container3__title{
+            text-align: center;
+        }
         .container3__blocks-row1-item{
             width: 200px;
         }
         .container3__blocks{
             display: flex;
             flex-direction: row;
-            width: 220px;
+            width: 300px;
+            
         }
         .container3__blocks-row1-item{
             width: 170px;
@@ -1408,6 +1415,10 @@ padding-left: 200px;
     .container2__block-left-statistics1-descr{
         width: 140px;
     }
+    .container2__block-left{
+        margin-bottom: 0px;
+        margin-top: 100px;
+    }
 
     .container3__title{
         text-align: center;
@@ -1420,11 +1431,13 @@ padding-left: 200px;
         transform: translateX(-30px);
         width: 140px;
     }
+    .container3__title{
+        padding-top: 20px;
+    }
 
     .container4__block{
         transform: translateY(250px);
         width: 340px;
-        border: 1px solid #000;
     }
     .container4__block-left-title{
         font-size: 30px;
